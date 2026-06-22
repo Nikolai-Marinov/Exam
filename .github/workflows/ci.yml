@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore GitExamApp.sln
+
+      - name: Build
+        run: dotnet build GitExamApp.sln --no-restore
+
+      - name: Run tests
+        run: dotnet test GitExamApp.sln --no-build --verbosity normal
