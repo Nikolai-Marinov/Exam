@@ -1,1 +1,1 @@
-﻿int Divide(int a, int b) => a / 0;
+﻿int Divide(int a, int b) => a / b;
