@@ -1,0 +1,15 @@
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\bin\Debug\net9.0\GitExamApp.exe
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\bin\Debug\net9.0\GitExamApp.deps.json
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\bin\Debug\net9.0\GitExamApp.runtimeconfig.json
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\bin\Debug\net9.0\GitExamApp.dll
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\bin\Debug\net9.0\GitExamApp.pdb
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\GitExamApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\GitExamApp.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\GitExamApp.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\GitExamApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\GitExamApp.sourcelink.json
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\GitExamApp.dll
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\refint\GitExamApp.dll
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\GitExamApp.pdb
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\GitExamApp.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Работен плот\Repos\Exam\obj\Debug\net9.0\ref\GitExamApp.dll
