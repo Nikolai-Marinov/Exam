@@ -6,5 +6,11 @@ namespace GitExamApp
         {
             return "auth logic";
         }
+
+          public string Logout()
+          {
+            return "logout logic";
+          }
+        
     }
 }
