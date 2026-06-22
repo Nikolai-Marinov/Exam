@@ -6,5 +6,10 @@ namespace GitExerciseApp
         {
             return "dashboard UI";
         }
+
+        public string RenderWidgets()
+        {
+            return "widget UI";
+        }
     }
 }
