@@ -8,6 +8,6 @@ public class AuthTests
     {
         var auth = new Auth();
         var result = auth.Login();
-        Assert.Equal("wrong value", result);
+        Assert.Equal("auth logic", result);
     }
 }
