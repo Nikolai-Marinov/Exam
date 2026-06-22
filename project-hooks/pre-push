@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "Running unit tests before push..."
+dotnet test GitExamApp.sln
+
+if [ $? -ne 0 ]; then
+  echo "ERROR: Tests failed. Push blocked."
+  exit 1
+fi
+
+echo "All tests passed. Proceeding with push."
+exit 0

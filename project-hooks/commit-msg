@@ -1,0 +1,12 @@
+#!/bin/sh
+
+commit_msg=$(cat "$1")
+
+if ! echo "$commit_msg" | grep -qE "^TASK-[0-9]+: .+"; then
+  echo "ERROR: Commit message must follow format 'TASK-123: description'"
+  echo "Your message: $commit_msg"
+  exit 1
+fi
+
+echo "Commit message format OK."
+exit 0

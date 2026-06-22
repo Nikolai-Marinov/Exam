@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Checking code formatting..."
+dotnet format GitExamApp.sln --verify-no-changes
+if [ $? -ne 0 ]; then
+  echo "ERROR: Code formatting issues found. Run 'dotnet format GitExamApp.sln' to fix."
+  exit 1
+fi
+
+echo "Pre-commit checks passed."
+exit 0
